@@ -1,9 +1,10 @@
 {
   "env": {
     "browser": true,
-    "es6": true
+    "es6": true,
+    "jest": true
   },
-  "extends": ["react-app", "standard"],
+  "extends": ["react-app", "standard", "standard-react"],
   "plugins": ["import", "jsx-a11y", "react"],
   "rules": {
     "react/jsx-filename-extension": [
